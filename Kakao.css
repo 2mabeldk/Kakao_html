@@ -8,3 +8,18 @@ body {
 ul {
     list-style-type:none;
 }
+.header_left{text-align: left;
+    width: 33%;
+}
+.header_center{text-align: center;
+    width: 33%;
+
+}
+.header_right{text-align: right;
+width: 33%;
+}
+
+.top-header{
+    background-color: aliceblue;
+    color: black;
+}
