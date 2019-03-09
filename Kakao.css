@@ -8,18 +8,39 @@ body {
 ul {
     list-style-type:none;
 }
-.header_left{text-align: left;
-    width: 33%;
+.top-header .header-top{text-align: left;
+    display:flex;
 }
-.header_center{text-align: center;
+.top-header .header_column{
     width: 33%;
 
 }
-.header_right{text-align: right;
-width: 33%;
+.top-header .header_column:last-child{
+    text-align:right;
 }
 
+.top-header .header_column:nth-child(2) {
+    text-align:center;
+}
 .top-header{
     background-color: aliceblue;
     color: black;
+}
+
+.tab-bar {
+    background-color:antiquewhite;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    padding:10px 30 px 5px 30 px;
+}
+.tab-bar .tab-bar__tab {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: brown;
+    transition: transform .3s linear;
 }
