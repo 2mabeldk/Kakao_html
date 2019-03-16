@@ -1,3 +1,4 @@
+@import 'Chat.css';
 body {
     background-image: url("https://i.pinimg.com/originals/9c/ce/d3/9cced3264a1e7b144467f506923ebb0b.jpg");
     background-size:cover;
@@ -8,7 +9,8 @@ body {
 ul {
     list-style-type:none;
 }
-.top-header .header-top{text-align: left;
+.top-header .header-top{
+    text-align: left;
     display:flex;
 }
 .top-header .header_column{
@@ -44,3 +46,20 @@ ul {
     color: brown;
     transition: transform .3s linear;
 }
+
+.bottom-header .header-bottom{
+    text-align:left;
+    display:flex;
+}
+.bottom-header .bottom_column{
+    width: 33%;
+}
+.bottom-header .bottom_column:last-child{
+    text-align:center;
+}
+
+.bottom-header{
+    background-color: aliceblue;
+    color: black;
+}
+
