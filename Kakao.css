@@ -45,6 +45,7 @@ ul {
     text-decoration: none;
     color: brown;
     transition: transform .3s linear;
+    width: 33.3%;
 }
 
 .bottom-header .header-bottom{
