@@ -4,6 +4,9 @@ body {
     background-image: url("https://i.pinimg.com/originals/9c/ce/d3/9cced3264a1e7b144467f506923ebb0b.jpg");
     background-size:cover;
 }
+a:link{
+    text-decoration: none;
+} 
 .text_size{
     font-size: 150%;
 }
